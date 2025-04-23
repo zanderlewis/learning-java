@@ -1,4 +1,5 @@
-package dev.zanderlewis.learn;
+package dev.zanderlewis.learn.objects;
+import dev.zanderlewis.learn.Utilities;
 
 public class Person {
     private String fname;
@@ -46,10 +47,6 @@ public class Person {
     }
 
     public void setAge(int age) {
-        if (age >= 0) {
-            this.age = age; 
-        } else {
-            System.out.println("Age can't be negative!");
-        }
+        Utilities.negCheck("Age", age);
     }
 }

@@ -1,0 +1,4 @@
+.vscode/
+.DS_Store
+# Ignore rsj_build even though it is auto ignored by a generated .gitignore
+rsj_build/
