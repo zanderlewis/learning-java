@@ -1,0 +1,7 @@
+[project]
+name = "learn"
+version = "0.1.0"
+main_class = "Main"
+base_namespace = "dev.zanderlewis.learn"
+
+[dependencies]
